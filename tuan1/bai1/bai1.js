@@ -15,13 +15,13 @@ function calculateBMI() {
     if (markBMI > johnBMI) 
     {
         document.getElementById('result').textContent = 
-            `BMI'Mark= ${markBMI.toFixed(2)}\n BMI'John= ${johnBMI.toFixed(2)}.\n BMI'Mark > BMI'John.`;
+            `BMI'Mark= ${markBMI.toFixed(2)}\n BMI'John= ${johnBMI.toFixed(2)}.`;
     } else if (markBMI < johnBMI) {
          document.getElementById('result').textContent = 
-             `BMI'Mark= ${markBMI.toFixed(2)}\n BMI'John= ${johnBMI.toFixed(2)}.\n BMI'Mark < BMI'John.`;
+             `BMI'Mark= ${markBMI.toFixed(2)}\n BMI'John= ${johnBMI.toFixed(2)}.`;
     } else {
         document.getElementById('result').textContent = 
-             `BMI'Mark= ${markBMI.toFixed(2)}\n BMI'John= ${johnBMI.toFixed(2)}.\n BMI'Mark = BMI'John.`;
+             `BMI'Mark= ${markBMI.toFixed(2)}\n BMI'John= ${johnBMI.toFixed(2)}.`;
     }
   }
   
