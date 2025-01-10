@@ -5,7 +5,7 @@ function calculateBMI() {
     const heightJohn = parseFloat(document.getElementById('heightJohn').value);
   
     if (!massMark || !heightMark || !massJohn || !heightJohn) {
-      document.getElementById('result').textContent = "Please fill out all fields correctly.";
+      document.getElementById('result').textContent = "Nhập sai.";
       return;
     }
   
