@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gymnastics Team Score</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Compare Gymnastics Team Scores</h1>
+    <form id="scoreForm">
+      <!-- Scores for Dolphins -->
+      <div class="form-group">
+        <label for="dolphinScore1">Dolphins - Score 1:</label>
+        <input type="number" id="dolphinScore1" required>
+      </div>
+      <div class="form-group">
+        <label for="dolphinScore2">Dolphins - Score 2:</label>
+        <input type="number" id="dolphinScore2" required>
+      </div>
+      <div class="form-group">
+        <label for="dolphinScore3">Dolphins - Score 3:</label>
+        <input type="number" id="dolphinScore3" required>
+      </div>
+
+      <!-- Scores for Koalas -->
+      <div class="form-group">
+        <label for="koalaScore1">Koalas - Score 1:</label>
+        <input type="number" id="koalaScore1" required>
+      </div>
+      <div class="form-group">
+        <label for="koalaScore2">Koalas - Score 2:</label>
+        <input type="number" id="koalaScore2" required>
+      </div>
+      <div class="form-group">
+        <label for="koalaScore3">Koalas - Score 3:</label>
+        <input type="number" id="koalaScore3" required>
+      </div>
+
+      <!-- Button -->
+      <button type="button" onclick="checkWinner()">Calculate Winner</button>
+    </form>
+
+    <!-- Result -->
+    <div id="result"></div>
+  </div>
+
+  <script src="bai4.js"></script>
+</body>
+</html>
